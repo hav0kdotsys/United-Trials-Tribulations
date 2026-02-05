@@ -1,0 +1,47 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.semanticTokenColorCustomizations": {
+			"[Default Dark Modern]": {
+				// the theme you're using
+				"enabled": true, // enable semantic highlighting
+				"rules": {
+					"macro": "#A600FF",
+					"enum": "#FF0055",
+					"enumMember": "#e97400",
+					// Instance and struct variables
+					"property": "#FF00A5",
+					"property.static": "#FFF899",
+					"variable.local": "#00FFFF",
+					"parameter": "#10c3eb",
+					// Built-in variables and constants
+					"variable.defaultLibrary": "#58E55A",
+					// Your project's global variables
+					"variable.global": "#96FF4C",
+					// Built-in functions
+					"function.defaultLibrary": "#FFB871",
+					// Asset identifiers (like sprite IDs)
+					"variable.asset": "#d9760c"
+				}
+			}
+		},
+		"editor.tokenColorCustomizations": {
+			// Regular (non-contextual) syntax highlighting
+			"[Default Dark Modern]": {
+				"comments": "#7d7d7d",
+				"strings": "#FFFF00",
+				"numbers": "#FFFF00"
+				// etc.
+			}
+		},
+		"stitch.diagnostics.autoDeclaredGlobalsPatterns": [
+			"inst_"
+		],
+		"stitch.editing.autocomplete.ignoredPrefix": "inst_,",
+		"editor.fontFamily": "Monaspace Krypton Var, monospace"
+	}
+}
